@@ -24,4 +24,4 @@
 
 [Download Link]: https://www.yuis-drive.asia/rom/PixelExperience/haydn
 
-[ChangeLog]: https://raw.githubusercontent.com/https://github.com/haydn-development/changelog/Version/0818.txt
+[ChangeLog]: https://raw.githubusercontent.com/haydn-development/changelog/thirteen/Version/0818.txt
