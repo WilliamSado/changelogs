@@ -9,12 +9,17 @@
 # For Devlopers #
 
 [Device tree][device]
+
 [Kernel tree][kernel]
+
 [Vendor tree][vendor]
+
+
 
 # For Users #
 
 [Download][Download Link]
+
 [Changelog][ChangeLog]
 
 [device]: https://github.com/haydn-development/device_xiaomi_haydn
