@@ -13,3 +13,4 @@ Device maintainer: William_Sado
 ===== 16.09.2023 =====
 - Merge source code upstream
 - Monthly updates
+- Removed KernelSU
