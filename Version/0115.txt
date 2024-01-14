@@ -8,7 +8,7 @@ Device maintainer: William_Sado
 - Included 14.0.11 firmware
 - Initial PixelOS UNOFFICIAL Build
 
-# Device tree chang
+# Device tree change
 Commits on Jan 14, 2024
 mars: Update blobs from MIUI V14.0.11.0.TKACNXM
 mars: Include Firmware images
