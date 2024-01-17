@@ -1,0 +1,67 @@
+Change log
+Build Rom: PixelOS
+Build type: User
+Device: Xiaomi Mi 11 Pro
+Device maintainer: William_Sado
+
+===== 16.01.2024 =====
+- Use mars-qgki_defconfig
+- Included 14.0.11 firmware
+- Included GCam MGC V8.1.101
+
+# Device tree changes
+Commits on Jan 17, 2024
+mars: Include Gcam if exists
+
+Commits on Jan 14, 2024
+mars: Update blobs from MIUI V14.0.11.0.TKACNXM
+mars: Include Firmware images
+mars: Inherit device FCM from vendor
+mars: Use FUSE passthrough by default
+mars: Replace direct pid writes with setting task profiles for audio interfaces
+mars: Keep building health HIDL interface lib in vendor
+mars: Move to QTI health AIDL service
+mars: Build Widevine DRM HAL dependencies
+mars: Replace isolated_app with isolated_app_all
+mars: Set PRODUCT_SET_DEBUGFS_RESTRICTIONS
+mars: Switch to AOSP WFD
+mars: fstab: data=journal,commit=1 for /metadata
+mars: Disable sparse for Ext images
+mars: fstab: Switch to AOSP encryption
+mars: Build libprotobuf-cpp-lite-3.9.1-vendorcompat
+mars: overlay: Exclude faceunlock from camera protection
+mars: Provide android.frameworks.sensorservice@1.0 on vendor
+mars: Maximize partition sizes
+mars: Switch to NFC service AIDL
+mars: Switch to Wifi service AIDL
+mars: Build libprotobuf-cpp-full-3.9.1-vendorcompat
+mars: Switch sepolicy to sepolicy_vndr
+mars: Dorp livedisplay hal now
+mars: Build Lineage Health HAL
+mars: Initial PixelOS bringup
+
+Commits on Oct 19, 2023
+mars: Set BUILD_BROKEN_CLANG_PROPERTY := true
+mars: vibrator: fix misleading indentation
+mars: gps: Fix misleading indentation
+sm8350-common: vibrator: fix misleading indentation
+mars: gps: Fix unqualified call to std::move.
+mars: sepolicy: Allow GNSS HAL to read xtra control property
+mars: Ramp ro.surface_flinger.set_idle_timer_ms value
+sm8350-common: Set Surfaceflinger refresh rate timers
+mars: Build TextClassifier packages
+mars: rootdir: Create audio-app stune directory
+mars: rootdir: Drop input boost
+mars: gps: Reduce LOWI debug level
+
+# Kernel source changes
+Commits on Jan 14, 2024
+defconfig: Regen for mars
+defconfig: Generate defconfig for mars
+arm64: kernel: Use clang stackprotector without conditions
+
+# Vendor tree changes
+Commits on Jan 14, 2024
+mars: Synced dt
+mars: Patch ims.apk again
+mars: Update blobs from 13-TKQ1.220829.002-V14.0.11.0.TKACNXM-release-keys
